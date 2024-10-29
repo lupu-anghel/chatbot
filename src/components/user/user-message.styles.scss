@@ -1,0 +1,15 @@
+.user-message{
+    &.filled{
+        border-radius: 5px 5px 0 5px;
+        background: #ccc;
+        color: #333;
+        padding: 0.5rem;
+        text-align: right;
+        min-width: 20%;
+        max-width: 80%;
+        display: flex;
+        margin-left: auto;
+        margin-bottom: 1rem;
+        justify-content: flex-end;
+    }
+}

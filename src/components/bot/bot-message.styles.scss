@@ -1,0 +1,47 @@
+.bot-card{
+    margin-bottom: 0.8rem;
+    border-radius: 5px 5px 5px 0;
+    border: solid 3px #c5e4f8;
+    width: auto;
+    width: 80%;
+    page-break-after: always;
+    break-after: always;
+    position: relative;
+    margin-left: 2.5rem;
+    &:after{
+        content: '';
+        background-image: url('../../assets/img/chatbot-icon-blue.png');
+        display: inline-flex;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: -2rem;
+        align-items: center;
+        bottom: 0;
+    }
+    .title{
+        padding: 0.5rem;
+        text-align: left;
+        background: #c5e4f8;
+        color: #333;
+    }
+
+    .body{
+       .choice{
+            width: 100%;
+            background: #fff;
+            border: solid 1px #ddd;
+            padding: 0.5rem;
+            font-size: 0.8rem;
+            color: #333;
+            cursor: pointer;
+            &:disabled{
+                background-color: #f3f3f3;
+                cursor: default;
+            }
+       }
+    }
+
+}
