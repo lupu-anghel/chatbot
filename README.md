@@ -1,8 +1,9 @@
 # Prerequisits
-You will need to have installed on your local machine npm, git
+You will need to have installed on your local machine node, git
 
 ## Getting Started
 Use git clone to clone the repo
+
 Do an npm install to install the dependencies
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
